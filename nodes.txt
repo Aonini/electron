@@ -1,0 +1,27 @@
+elctron（电子的意思） 需要运行在node环境里面  需要新安装node  vscode就可以开发
+
+node安装好之后应该会自动安装npm   如果没有安装  手动按装一下npm
+
+老师说vscode就是electron开发的
+
+装好node  npm  之后 最好安装淘宝镜像  不然可能下不下来 
+
+
+cnpm install -g electron  
+
+之后electron -v检查版本
+
+之后启动项目  有3种方法 
+
+
+可以克隆一个项目   克隆项目地址  git clone https://github.com/electron/electron-quick-start
+
+
+electron-frge搭建一个项目 
+
+
+还有一种手动搭建  
+
+
+第一种直接从git拉下一demo下来   拉下来之后 进入electron-quick-start目录安装依赖（依赖在packge.json里面能看见）输入npm  i 之后启动项目 npm start
+（npm start 也可以 electron .来启动项目）
