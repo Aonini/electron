@@ -33,3 +33,5 @@ electron-frge搭建一个项目
 	electron-forge init name
 	cd name
 	npm start启动项目
+
+	启动项目之后会打开带调试台的app
