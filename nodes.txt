@@ -25,3 +25,11 @@ electron-frge搭建一个项目
 
 第一种直接从git拉下一demo下来   拉下来之后 进入electron-quick-start目录安装依赖（依赖在packge.json里面能看见）输入npm  i 之后启动项目 npm start
 （npm start 也可以 electron .来启动项目）
+	好像是不能打包
+
+第二种electron forge  可以创建.运行，打包 项目   electron的脚手架
+
+使用方式  npm install -g @electron-forge/cli(这边我安装的时候遇到问题，node版本太低从新安装的)
+	electron-forge init name
+	cd name
+	npm start启动项目
